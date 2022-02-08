@@ -14,3 +14,8 @@ describe( "index.js", () => {
   } )
 
 } )
+
+function addText (){
+  document.querySelector('p')
+  p.textContent = "JavaScript is so cool. It lets me add text to my page programmatically."
+}
